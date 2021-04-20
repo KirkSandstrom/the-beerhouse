@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul&family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Asul", sans-serif;
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility classes */
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2rem;
+}
+
+.btn-light {
+  color: #000;
+  background: #fff;
+  border-color: #000;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background: #000;
+}
+
+.btn-dark {
+  color: #fff;
+  background: #000;
+  border-color: #fff;
+}
+
+.btn-dark:hover {
+  color: #000;
+  background: #fff;
+}
+
+/* Hero */
+#hero {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+
+/* Hero: navbar */
+#hero #navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+#hero #navbar #logo-container a img {
+  width: 125px;
+}
+
+#hero #navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+#hero #navbar ul li a {
+  margin: 0 20px;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+#hero #navbar ul li a:hover {
+  font-weight: bold;
+}
+
+/* Mission */
+#mission {
+  padding-top: 60px;
+}
+
+#mission .container p {
+  padding-top: 20px;
+}
+
+#mission .container a.btn {
+  margin-top: 30px;
+}
