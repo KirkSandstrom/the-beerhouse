@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
@@ -88,11 +92,11 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 36px;
-  padding: 20px 40px;
+  padding: 1.5rem 3rem;
 }
 
 #hero #navbar .logo-container a img {
-  width: 125px;
+  width: 9rem;
 }
 
 #hero #navbar ul {
@@ -103,7 +107,7 @@ a {
 }
 
 #hero #navbar ul li a {
-  margin: 0 20px;
+  margin: 0 1rem;
   color: #ffffff;
 }
 
@@ -113,22 +117,22 @@ a {
 
 /* mission */
 #mission {
-  padding-top: 60px;
+  padding-top: 4rem;
 }
 
 #mission .container p {
-  padding-top: 20px;
+  padding-top: 1.5rem;
 }
 
 #mission .container a.btn {
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 /* spotlights */
 #spotlights .spotlight {
   display: flex;
   justify-content: space-between;
-  padding: 60px 50px 0 50px;
+  padding: 4rem 3rem 0 3rem;
 }
 
 #spotlights .spotlight .spotlight-info {
@@ -149,28 +153,28 @@ a {
 }
 
 #spotlights .spotlight .spotlight-info .btn-container a.btn {
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 /* beer finder */
 #beer-finder {
-  padding: 80px;
-  margin-top: 60px;
+  padding: 5rem;
+  margin-top: 4rem;
 }
 
 #beer-finder .container a.btn {
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 /* news letter */
 #news-letter {
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 #news-letter .container-wide form {
   width: 55%;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 #news-letter .container-wide form input[type="text"] {
@@ -181,7 +185,7 @@ a {
 }
 
 #news-letter .container-wide form input[type="submit"] {
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 /* footer */
@@ -189,7 +193,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 40px;
+  padding: 4rem 2.5rem;
 }
 
 /* footer: navbar */
