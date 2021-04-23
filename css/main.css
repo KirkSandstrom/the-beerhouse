@@ -53,7 +53,7 @@ a {
   display: inline-block;
   font-size: 36px;
   padding: 0.5rem 2rem;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
   border-radius: 2rem;
   cursor: pointer;
@@ -98,7 +98,7 @@ a {
 }
 
 #hero #navbar .logo-container a img {
-  width: 9rem;
+  width: 160px;
 }
 
 #hero #navbar ul#main-nav {
@@ -211,7 +211,7 @@ a {
 }
 
 #footer #navbar-footer .logo-container a img {
-  width: 175px;
+  max-width: 312px;
 }
 
 #footer #navbar-footer ul {
@@ -239,10 +239,21 @@ a {
   max-width: 25%;
 }
 
-.weather strong {
-  font-size: 30px;
+.weather #drinkingConditions {
+  text-align: center;
 }
 
-.weather p {
+.weather #drinkingConditions div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+
+.weather #drinkingConditions h3 {
+  font-size: 36px;
+}
+
+.weather #drinkingConditions span {
   font-size: 20px;
 }

@@ -25,6 +25,10 @@ h6 {
   width: 100%;
 }
 
+.btn {
+  border-width: 2px;
+}
+
 /* hero: navbar */
 #hero {
   justify-content: center;
@@ -32,6 +36,15 @@ h6 {
 
 #hero #navbar {
   justify-content: center;
+}
+
+#hero #navbar .logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#hero #navbar .logo-container a img {
+  width: 108px;
 }
 
 #hero #navbar ul#main-nav {
@@ -99,11 +112,24 @@ h6 {
   flex-direction: column;
 }
 
+#footer #navbar-footer .logo-container a img {
+  max-width: 290px;
+}
+
 #footer #navbar-footer ul {
   flex-direction: column;
 }
 
+#footer #navbar-footer ul li {
+  margin: 0.5rem 0;
+}
+
+/* footer: weather */
 .weather {
   margin-top: 2rem;
-  max-width: 95%;
+  max-width: 90%;
+}
+
+.weather #drinkingConditions h3 {
+  font-size: 30px;
 }

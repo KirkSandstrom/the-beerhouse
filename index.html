@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-  <script src="js/main.js"></script>
   <title>The Beerhouse</title>
 </head>
 <body>
@@ -112,9 +111,11 @@
       </ul>
     </nav>
     <div class="weather">
-      <strong>Our current local drinking conditions</strong>
-      <p>partly cloudy</p>
+      <div id="drinkingConditions"></div>
     </div>
   </footer>
+  <script src="js/fetch.js"></script>
+  <script src="js/weatherUI.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

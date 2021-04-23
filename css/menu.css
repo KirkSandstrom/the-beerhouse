@@ -34,7 +34,7 @@
 .menu-wrap .hamburger > div {
   position: relative;
   flex: none;
-  width: 100%;
+  width: 34px;
   height: 2px;
   background: #fff;
   display: flex;
@@ -50,7 +50,7 @@
   position: absolute;
   z-index: -1;
   top: -10px;
-  width: 100%;
+  width: 34px;
   height: 2px;
   background: inherit;
 }
@@ -63,6 +63,7 @@
 /* Toggler Animation */
 .menu-wrap .toggler:checked + .hamburger > div {
   transform: rotate(135deg);
+  width: 28px;
 }
 
 /* Turns Lines Into X */
@@ -70,6 +71,7 @@
 .menu-wrap .toggler:checked + .hamburger > div::after {
   top: 0;
   transform: rotate(90deg);
+  width: 28px;
 }
 
 /* Rotate On Hover When Checked */
