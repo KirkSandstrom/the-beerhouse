@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Asul&family=Open+Sans&display=swap");
 
+:root {
+  --primary-color: rgba(0, 0, 0, 0);
+  --secondary-color: rgba(229, 148, 0, 1);
+  --overlay-color: #160d02;
+  --menu-speed: 0.75s;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,6 +34,7 @@ h6 {
 
 a {
   text-decoration: none;
+  font-family: "Asul", sans-serif;
 }
 
 /* utility classes */
@@ -93,23 +101,23 @@ a {
   width: 9rem;
 }
 
-#hero #navbar ul {
+#hero #navbar ul#main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
 
-#hero #navbar ul li a {
+#hero #navbar ul#main-nav li a {
   margin: 0 1rem;
   color: #ffffff;
 }
 
-#hero #navbar ul li a:hover {
-  font-weight: bold;
+#hero #navbar ul#main-nav li a:hover {
+  color: var(--secondary-color);
 }
 
-#hero #navbar #hamnav {
+#hero #navbar .menu-wrap {
   display: none;
 }
 
@@ -175,7 +183,7 @@ a {
   margin-top: 2rem;
 }
 
-#news-letter .container form input[type="text"] {
+#news-letter .container form input[type="email"] {
   border: 2px solid #000;
   padding: 1rem;
   width: 100%;
@@ -222,7 +230,7 @@ a {
 }
 
 #footer #navbar-footer ul li a:hover {
-  font-weight: bold;
+  color: var(--secondary-color);
 }
 
 /* footer: weather */
