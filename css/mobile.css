@@ -1,0 +1,113 @@
+/* set mobile font sizes */
+body {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+.btn {
+  font-size: 24px;
+}
+
+#footer #navbar-footer ul li a {
+  font-size: 36px;
+}
+
+/* utility classes */
+.container {
+  width: 100%;
+}
+
+/* hero: navbar */
+#hero {
+  justify-content: center;
+}
+
+#hero #navbar {
+  justify-content: center;
+}
+
+#hero #navbar ul {
+  display: none;
+}
+
+#hero #navbar .logo-container {
+  width: 9rem;
+  /* margin: 0 auto; */
+}
+
+#hero #navbar #hamnav {
+  display: block;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  color: #fff;
+}
+
+/* mission */
+#mission {
+  padding-top: 2rem;
+}
+
+#mission .container p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* spotlights */
+#spotlights .spotlight {
+  flex-direction: column;
+  padding: 4rem 0 0 0;
+}
+
+#spotlights .spotlight .spotlight-info {
+  width: 90%;
+  padding-top: 2rem;
+}
+
+#spotlights .spotlight .spotlight-image {
+  width: 100%;
+}
+
+#spotlights #spotlight-swag {
+  flex-direction: column-reverse;
+}
+
+/* news letter */
+#news-letter .container h2 {
+  padding: 0 2rem;
+}
+
+#news-letter .container form {
+  width: 80%;
+}
+
+/* footer */
+#footer {
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+/* footer: navbar */
+#footer #navbar-footer {
+  flex-direction: column;
+}
+
+#footer #navbar-footer ul {
+  flex-direction: column;
+}
+
+.weather {
+  margin-top: 2rem;
+  max-width: 95%;
+}
